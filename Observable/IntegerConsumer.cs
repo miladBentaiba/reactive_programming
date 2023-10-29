@@ -3,7 +3,7 @@
 /// </summary> 
 public partial class IntegerConsumer : IObserver<int>
 {
-    readonly int validDivider;
+    public readonly int validDivider;
     //the costructor asks for a divider 
     public IntegerConsumer(int validDivider)
     {

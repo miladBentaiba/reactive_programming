@@ -1,7 +1,12 @@
-﻿//Observable able to parse strings from the Console 
+﻿using System.Collections.Generic;
+
+//Observable able to parse strings from the Console 
 //and route numeric messages to all subscribers 
 public class ConsoleIntegerProducer : IObservable<int>, IDisposable
 {
+
+    HashSet<int> numbers = new HashSet<int>();
+
     //the subscriber list 
     private readonly List<IObserver<int>> subscriberList = new List<IObserver<int>>();
 
@@ -22,11 +27,17 @@ public class ConsoleIntegerProducer : IObservable<int>, IDisposable
     //add another observer to the subscriber list 
     public IDisposable Subscribe(IObserver<int> observer)
     {
-        if (subscriberList.Contains(observer))
+        IntegerConsumer observer_ = (IntegerConsumer) observer;
+        if (subscriberList.Contains(observer_))
             throw new ArgumentException("The observer is already subscribed to this observable");
 
-        Console.WriteLine("Subscribing for {0}", observer.GetHashCode());
-        subscriberList.Add(observer);
+        if (numbers.Contains(observer_.validDivider))
+            throw new ArgumentException($"the validDivider {observer_.validDivider} already exists");
+
+        numbers.Add(observer_.validDivider);
+
+        Console.WriteLine("Subscribing for {0}", observer_.GetHashCode());
+        subscriberList.Add(observer_);
 
         return null;
     }

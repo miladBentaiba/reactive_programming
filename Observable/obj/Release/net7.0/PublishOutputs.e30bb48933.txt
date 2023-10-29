@@ -1,0 +1,5 @@
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Observable\bin\Release\net7.0\publish\Observable.exe
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Observable\bin\Release\net7.0\publish\Observable.dll
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Observable\bin\Release\net7.0\publish\Observable.deps.json
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Observable\bin\Release\net7.0\publish\Observable.runtimeconfig.json
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Observable\bin\Release\net7.0\publish\Observable.pdb
