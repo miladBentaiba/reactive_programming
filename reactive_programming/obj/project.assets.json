@@ -61,9 +61,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\reactive_programming\\reactive_programming.csproj",
-      "projectName": "reactive_programming",
-      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\reactive_programming\\reactive_programming.csproj",
+      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\reactive_programming\\first_example.csproj",
+      "projectName": "first_example",
+      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\reactive_programming\\first_example.csproj",
       "packagesPath": "C:\\Users\\mi.bentaiba\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\reactive_programming\\obj\\",
       "projectStyle": "PackageReference",
