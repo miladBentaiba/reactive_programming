@@ -15,9 +15,14 @@ namespace Observable
             //those are the message observer that consume messages 
             using (var consumer1 = observer.Subscribe(new IntegerConsumer(2)))
             using (var consumer2 = observer.Subscribe(new IntegerConsumer(3)))
-            using (var consumer3 = observer.Subscribe(new IntegerConsumer(5)))
-            //using (var consumer4 = observer.Subscribe(new IntegerConsumer(5)))
+            {
+                using (var consumer3 = observer.Subscribe(new IntegerConsumer(5)))
+                {
+                    //internal lifecycle 
+                }
+
                 observer.Wait();
+            }
 
             Console.WriteLine("END");
             Console.ReadLine();

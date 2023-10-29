@@ -1,10 +1,10 @@
-﻿using System.Collections.Generic;
+﻿using Observable;
+using System.Collections.Generic;
 
 //Observable able to parse strings from the Console 
 //and route numeric messages to all subscribers 
 public class ConsoleIntegerProducer : IObservable<int>, IDisposable
 {
-
     HashSet<int> numbers = new HashSet<int>();
 
     //the subscriber list 
@@ -39,7 +39,21 @@ public class ConsoleIntegerProducer : IObservable<int>, IDisposable
         Console.WriteLine("Subscribing for {0}", observer_.GetHashCode());
         subscriberList.Add(observer_);
 
-        return null;
+        //creates a new subscription for the given observer 
+        var subscription = new Subscription<int>(observer);
+        //handle to the subscription lifecycle end event 
+        subscription.OnCompleted += OnObserverLifecycleEnd;
+        return subscription;
+    }
+
+    void OnObserverLifecycleEnd(object sender, IObserver<int> e)
+    {
+        var subscription = sender as Subscription<int>;
+        //remove the observer from the internal list within the observable 
+        subscriberList.Remove(e);
+        //remove the handler from the subscription event 
+        //once already handled 
+        subscription.OnCompleted -= OnObserverLifecycleEnd;
     }
 
     //this code executes the observable infinite loop 
