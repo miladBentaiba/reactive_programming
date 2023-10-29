@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VxislCNx6NhFN142/iJUDs50uGzW7BymZh4Zjx4g7S31f3b7b/KXLXuMbPfb2J3hcB6BvFDsF7Kx+uejOe8F1g==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\reactive_programming\\reactive_programming.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mi.bentaiba\\.nuget\\packages\\system.reactive\\6.0.0\\system.reactive.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
