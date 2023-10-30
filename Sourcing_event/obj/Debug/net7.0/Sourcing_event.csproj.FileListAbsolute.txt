@@ -1,0 +1,14 @@
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\bin\Debug\net7.0\Sourcing_event.exe
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\bin\Debug\net7.0\Sourcing_event.deps.json
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\bin\Debug\net7.0\Sourcing_event.runtimeconfig.json
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\bin\Debug\net7.0\Sourcing_event.dll
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\bin\Debug\net7.0\Sourcing_event.pdb
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\obj\Debug\net7.0\Sourcing_event.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\obj\Debug\net7.0\Sourcing_event.AssemblyInfoInputs.cache
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\obj\Debug\net7.0\Sourcing_event.AssemblyInfo.cs
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\obj\Debug\net7.0\Sourcing_event.csproj.CoreCompileInputs.cache
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\obj\Debug\net7.0\Sourcing_event.dll
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\obj\Debug\net7.0\refint\Sourcing_event.dll
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\obj\Debug\net7.0\Sourcing_event.pdb
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\obj\Debug\net7.0\Sourcing_event.genruntimeconfig.cache
+C:\Users\mi.bentaiba\source\repos\reactive_programming\Sourcing_event\obj\Debug\net7.0\ref\Sourcing_event.dll
