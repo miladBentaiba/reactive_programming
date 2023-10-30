@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\Observable\\Observable.csproj",
-      "projectName": "Observable",
-      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\Observable\\Observable.csproj",
+      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\Observable\\2.Observable.csproj",
+      "projectName": "2.Observable",
+      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\Observable\\2.Observable.csproj",
       "packagesPath": "C:\\Users\\mi.bentaiba\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\Observable\\obj\\",
       "projectStyle": "PackageReference",

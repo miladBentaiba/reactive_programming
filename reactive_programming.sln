@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "first_example", "reactive_programming\first_example.csproj", "{50DFB380-4CFD-476E-B4B6-950875E72B77}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.first_example", "reactive_programming\1.first_example.csproj", "{50DFB380-4CFD-476E-B4B6-950875E72B77}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observable", "Observable\Observable.csproj", "{B71B1562-608D-44F0-BAC4-DE6157EB4A1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2.Observable", "Observable\2.Observable.csproj", "{B71B1562-608D-44F0-BAC4-DE6157EB4A1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sourcing_event", "Sourcing_event\Sourcing_event.csproj", "{A42785DD-61AE-46A4-A8AA-A8585FC36BB8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3.Sourcing_event", "Sourcing_event\3.Sourcing_event.csproj", "{A42785DD-61AE-46A4-A8AA-A8585FC36BB8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

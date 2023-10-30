@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\Sourcing_event\\Sourcing_event.csproj",
-      "projectName": "Sourcing_event",
-      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\Sourcing_event\\Sourcing_event.csproj",
+      "projectUniqueName": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\Sourcing_event\\3.Sourcing_event.csproj",
+      "projectName": "3.Sourcing_event",
+      "projectPath": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\Sourcing_event\\3.Sourcing_event.csproj",
       "packagesPath": "C:\\Users\\mi.bentaiba\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\mi.bentaiba\\source\\repos\\reactive_programming\\Sourcing_event\\obj\\",
       "projectStyle": "PackageReference",
